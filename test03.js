@@ -4,9 +4,9 @@ function average(a, b, c) {
     let suma = a;
     count++;
     suma += b;
-    if (typeof c != undefined) {
+    if (typeof c !== 'undefined') {
         count++;
-        suma += b;
+        suma += c;
     }
     return "Average is " + suma / count;
 }
