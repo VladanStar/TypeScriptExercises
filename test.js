@@ -1,6 +1,6 @@
 "use strict";
-// let vladan:string = "Vladan Cupric";
-// console.log(vladan);
+let vladan = "Vladan Cupric";
+console.log(vladan);
 var TipPrevoza;
 (function (TipPrevoza) {
     TipPrevoza[TipPrevoza["Automobil"] = 0] = "Automobil";
