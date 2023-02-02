@@ -1,5 +1,5 @@
-// let vladan:string = "Vladan Cupric";
-// console.log(vladan);
+ let vladan:string = "Vladan Cupric";
+ console.log(vladan);
 
 enum TipPrevoza {
     Automobil,
