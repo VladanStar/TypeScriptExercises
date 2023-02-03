@@ -1,4 +1,5 @@
-var vladan = "Vladan Cupric";
+"use strict";
+let vladan = "Vladan Cupric";
 console.log(vladan);
 var TipPrevoza;
 (function (TipPrevoza) {
@@ -7,6 +8,6 @@ var TipPrevoza;
     TipPrevoza[TipPrevoza["Tramvaj"] = 2] = "Tramvaj";
     TipPrevoza[TipPrevoza["Ostalo"] = 3] = "Ostalo";
 })(TipPrevoza || (TipPrevoza = {}));
-var mojTip = TipPrevoza.Automobil;
-var imeMogTipa = TipPrevoza[mojTip];
+let mojTip = TipPrevoza.Automobil;
+let imeMogTipa = TipPrevoza[mojTip];
 console.log(imeMogTipa);
